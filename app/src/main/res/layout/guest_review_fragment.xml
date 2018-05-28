@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ujjwal.neplime.FontUse.ProgressBarDemo">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel Country Villa"
+        android:textSize="18sp" />
+
+
+    <!--progress bar-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="0.1" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="5"
+                android:paddingLeft="10dp"
+                app:rcBackgroundColor="@color/nep_white_smoke"
+                app:rcBackgroundPadding="1dp"
+                app:rcMax="10"
+                app:rcProgress="10"
+                app:rcProgressColor="#5CB85C"
+                app:rcRadius="4dp"
+                app:rcReverse="false" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingLeft="10dp"
+                android:text="12345" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4"
+                android:stepSize="0.1" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="5"
+                android:paddingLeft="10dp"
+                app:rcBackgroundColor="@color/nep_white_smoke"
+                app:rcBackgroundPadding="1dp"
+                app:rcMax="10"
+                app:rcProgress="7"
+                app:rcProgressColor="#337AB7"
+                app:rcRadius="5dp"
+                app:rcReverse="false" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingLeft="10dp"
+                android:text="12345" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="0.1" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="5"
+                android:paddingLeft="10dp"
+                app:rcBackgroundColor="@color/nep_white_smoke"
+                app:rcBackgroundPadding="1dp"
+                app:rcMax="10"
+                app:rcProgress="4"
+                app:rcProgressColor="#5BC0DE"
+                app:rcRadius="5dp"
+                app:rcReverse="false" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingLeft="10dp"
+                android:text="12345" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="2"
+                android:stepSize="0.1" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="5"
+                android:paddingLeft="10dp"
+                app:rcBackgroundColor="@color/nep_white_smoke"
+                app:rcBackgroundPadding="1dp"
+                app:rcMax="10"
+                app:rcProgress="6"
+                app:rcProgressColor="#F0AD4E"
+                app:rcRadius="5dp"
+                app:rcReverse="false" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingLeft="10dp"
+                android:text="12345" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="1"
+                android:stepSize="0.1" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="5"
+                android:paddingLeft="10dp"
+                app:rcBackgroundColor="@color/nep_white_smoke"
+                app:rcBackgroundPadding="1dp"
+                app:rcMax="10"
+                app:rcProgress="2"
+                app:rcProgressColor="#D9534F"
+                app:rcRadius="5dp"
+                app:rcReverse="false" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:paddingLeft="10dp"
+                android:text="12345" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--user comment-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Most helpful first"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Option"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <!--comment section-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_user"
+                />
+
+            <!--comment main-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A Google user"/>
+
+                    <RatingBar
+                        android:id="@+id/user_rating"
+                        android:layout_below="@+id/username"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:stepSize="0.1" />
+
+                    <TextView
+                        android:id="@+id/comment_date"
+                        android:layout_below="@+id/username"
+                        android:layout_toRightOf="@+id/user_rating"
+                        android:layout_alignBottom="@+id/user_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="06/02/2018"/>
+
+                    <ImageView
+                        android:id="@+id/like_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/username"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_thumbs_up"
+                        android:paddingRight="10dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/user_comment"
+                        android:paddingTop="10dp"
+                        android:layout_below="@+id/user_rating"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sample_text"/>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

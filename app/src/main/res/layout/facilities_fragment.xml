@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hotel Country Villa"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Kathmandu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hotel Ammentites"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal">
+
+            <!--Hotel ammentities-->
+            <LinearLayout
+                android:id="@+id/hotel_ammentities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Hotel ammentities"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+
+
+            </LinearLayout>
+
+            <!--Internet-->
+            <LinearLayout
+                android:id="@+id/internet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Internet"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+            </LinearLayout>
+
+            <!--Safety and Security-->
+            <LinearLayout
+                android:id="@+id/safety_security"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Safety and Security"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+            </LinearLayout>
+
+            <!--Rooms Ammenity-->
+            <LinearLayout
+                android:id="@+id/rooms_ammenity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Rooms Ammenity"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+            </LinearLayout>
+
+            <!--Family Friendly Ammenity-->
+            <LinearLayout
+                android:id="@+id/family_ammenity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Family Friendly Ammenity"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+            </LinearLayout>
+
+            <!--Fun things to do-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Fun Things to do"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+            </LinearLayout>
+
+            <!--Fun Things to do as a Adventerous-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Fun Things to do as a Adventerous"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+            </LinearLayout>
+
+
+            <!--Accessibility-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Accessibility"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+            </LinearLayout>
+
+            <!--Childrens-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Accessibility"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:text="item 1" />
+
+
+
+            </LinearLayout>
+
+
+        </GridLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

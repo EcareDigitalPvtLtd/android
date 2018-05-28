@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/layout2_bg"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rooms"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/btn_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_bg"
+            android:paddingBottom="2dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/ic_remove_black_24dp" />
+
+        <TextView
+            android:id="@+id/room_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="1"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/btn_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_bg"
+            android:paddingBottom="2dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="2dp"
+            android:src="@drawable/ic_add_black_24dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="5dp"
+        android:background="@drawable/layout2_bg"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Adults"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/adult_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_bg"
+                android:paddingBottom="2dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="2dp"
+                android:src="@drawable/ic_remove_black_24dp" />
+
+            <TextView
+                android:id="@+id/adult_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/adult_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_bg"
+                android:paddingBottom="2dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="2dp"
+                android:src="@drawable/ic_add_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Children"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/children_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_fade_bg"
+                android:paddingBottom="2dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="2dp"
+                android:src="@drawable/ic_remove_black_fade_24dp" />
+
+            <TextView
+                android:id="@+id/children_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/children_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_bg"
+                android:paddingBottom="2dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="2dp"
+                android:src="@drawable/ic_add_black_24dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

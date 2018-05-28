@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffe3f4e3"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp" android:layout_margin="20dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_wc_black_24dp"/>
+                <ImageView android:id="@+id/bed1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_hotel_black_24dp"/>
+                <ImageView
+                    android:id="@+id/bed2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/bed1"
+                    android:src="@drawable/ic_hotel_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Extra bed available" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/service"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Service" android:textStyle="bold"
+                    android:textColor="#333"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ebecee"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_wifi_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Free cancellatio"/>
+                <TextView
+                    android:id="@+id/braekfast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_free_breakfast_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Brakfast include"/>
+                <TextView
+                    android:id="@+id/wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_wifi_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Free wifi"/>
+
+                <TextView
+                    android:id="@+id/money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:text="Money Exchange" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/car"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_directions_car_black_24dp"
+                        android:drawablePadding="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="Car Parking"/>
+                    <TextView
+                        android:id="@+id/more_details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="90dp"
+                        android:textColor="#337ab7"
+                        android:drawableTint="#005596"
+                        android:drawableLeft="@drawable/ic_report_black_24dp"
+                        android:drawablePadding="5dp"
+                        android:text="More Details"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ebecee"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Price" android:textStyle="bold"
+                    android:textColor="#333"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ebecee"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Rs 200"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ebecee"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Reserved" android:textStyle="bold"
+                    android:textColor="#333"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="Reserved" android:background="#f17e1a"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

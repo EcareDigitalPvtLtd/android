@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ujjwal.neplime.FontUse.RangeBarDemo">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+            android:id="@+id/rangeSeekbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bar_color="#e1e0e0"
+            app:bar_highlight_color="@color/nep_blue"
+            app:left_thumb_color="@color/colorAccent"
+            app:left_thumb_color_pressed="@color/colorAccent"
+            app:max_value="70000"
+            app:min_value="5000"
+            app:right_thumb_color="@color/colorAccent"
+            app:right_thumb_color_pressed="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/min_value"
+            android:layout_below="@+id/rangeSeekbar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5000"/>
+
+        <TextView
+            android:id="@+id/max_value"
+            android:layout_below="@+id/rangeSeekbar1"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="75000"/>
+
+
+    </RelativeLayout>
+</LinearLayout>
